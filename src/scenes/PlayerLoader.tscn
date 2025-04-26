@@ -1,0 +1,44 @@
+[gd_scene load_steps=2 format=3 uid="uid://4hk3hktwhhxd"]
+
+[sub_resource type="GDScript" id="GDScript_tci24"]
+script/source = "extends Node
+
+# PlayerLoader.gd
+# Loads all players from south_america_batch1.json to south_america_batch4.json
+# Stores in a single players array
+
+func _ready():
+	# Initialize players array
+	var players = []
+	
+	# Load each batch (1 to 4)
+	for i in range(1, 5):
+		var file_path = \"res://south_america_batch\" + str(i) + \".json\"
+		var file = FileAccess.open(file_path, FileAccess.READ)
+		if file:
+			var json_text = file.get_as_text()
+			var json = JSON.parse_string(json_text)
+			if json and json.has(\"players\"):
+				players.append_array(json.players)
+				print(\"Loaded %d players from %s\" % [json.players.size(), file_path])
+			else:
+				print(\"Error: Invalid JSON in %s\" % file_path)
+			file.close()
+		else:
+			print(\"Error: Could not open %s\" % file_path)
+	
+	# Print total players loaded
+	print(\"Total players loaded: %d\" % players.size())
+	
+	# Optional: Print a few players for verification
+	if players.size() > 0:
+		print(\"Sample player: %s %s, CA: %d, Position: %s\" % [
+			players[0].first_name, 
+			players[0].last_name, 
+			players[0].current_ability, 
+			players[0].position
+		])
+"
+
+[node name="Node" type="Node"]
+script = SubResource("GDScript_tci24")

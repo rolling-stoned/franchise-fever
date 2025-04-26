@@ -1,0 +1,36 @@
+[gd_scene load_steps=2 format=3 uid="uid://njq4ajc3ba2s"]
+
+[sub_resource type="GDScript" id="GDScript_1yxeg"]
+script/source = "extends Control
+
+@onready var squad_view_scene = preload(\"res://scenes/SquadView.tscn\")
+
+func _ready():
+	print(\"Ready function called.\")  # Debug
+	var squad_view = squad_view_scene.instantiate()
+	if squad_view:
+		print(\"SquadView instantiated successfully.\")  # Debug
+		add_child(squad_view)
+		print(\"SquadView added to the scene tree.\")  # Debug
+		squad_view.populate_squad([
+			{\"name\": \"John Doe\", \"position\": \"Forward\"},
+			{\"name\": \"Jane Smith\", \"position\": \"Defender\"}
+		])
+		print(\"SquadView populated with players.\")  # Debug
+	else:
+		print(\"Failed to instantiate SquadView.\")  # Debug
+"
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = SubResource("GDScript_1yxeg")
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0

@@ -1,0 +1,72 @@
+{
+  "Nicaragua": {
+    "first_names": [
+      "José", "Juan", "Carlos", "Luis", "Miguel", "Pedro", "Alejandro", "Rafael", "Manuel", "Víctor",
+      "Santiago", "Eduardo", "Daniel", "Francisco", "Javier", "Diego", "Gabriel", "Andrés", "Pablo", "Ricardo",
+      "Felipe", "Marcos", "Sebastián", "César", "Rodrigo", "Emilio", "Gustavo", "Tomás", "Ignacio", "Raúl"
+    ],
+    "last_names": [
+      "García", "López", "Rodríguez", "Martínez", "González", "Pérez", "Sánchez", "Ramírez", "Torres", "Flores",
+      "Gómez", "Hernández", "Díaz", "Morales", "Ortiz", "Castro", "Reyes", "Cruz", "Álvarez", "Mendoza",
+      "Ruiz", "Silva", "Ramos", "Herrera", "Medina", "Vega", "Campos", "Soto", "Delgado", "Jiménez",
+      "Fuentes", "Romero", "Aguilar", "Cabrera", "Espinoza", "Guerra", "Molina", "Núñez", "Peña", "Rivas",
+      "Sandoval", "Téllez", "Uriarte", "Vargas", "Zamora", "Barrios", "Calero", "Chavarría", "Mairena", "Obando"
+    ]
+  },
+  "Mexico": {
+    "first_names": [
+      "Juan", "Carlos", "Luis", "José", "Miguel", "Pedro", "Alejandro", "Rafael", "Manuel", "Víctor",
+      "Santiago", "Eduardo", "Daniel", "Francisco", "Javier", "Diego", "Gabriel", "Andrés", "Pablo", "Ricardo",
+      "Felipe", "Marcos", "Sebastián", "César", "Rodrigo", "Emilio", "Gustavo", "Tomás", "Ignacio", "Arturo"
+    ],
+    "last_names": [
+      "García", "Hernández", "López", "Martínez", "González", "Pérez", "Rodríguez", "Sánchez", "Ramírez", "Torres",
+      "Flores", "Gómez", "Díaz", "Morales", "Ortiz", "Castro", "Reyes", "Cruz", "Álvarez", "Mendoza",
+      "Ruiz", "Silva", "Ramos", "Herrera", "Medina", "Vega", "Campos", "Soto", "Delgado", "Jiménez",
+      "Fuentes", "Romero", "Aguilar", "Cabrera", "Espinoza", "Guerra", "Molina", "Núñez", "Peña", "Rivas",
+      "Chávez", "Guzmán", "Salazar", "Vázquez", "Acosta", "Bautista", "Cervantes", "Estrada", "Luna", "Valdez"
+    ]
+  },
+  "Uruguay": {
+    "first_names": [
+      "Juan", "Carlos", "Luis", "José", "Diego", "Miguel", "Santiago", "Alejandro", "Victor", "Gabriel",
+      "Manuel", "Rafael", "Eduardo", "Javier", "Francisco", "Andrés", "Pablo", "Ricardo", "Sebastián", "Felipe",
+      "Marcos", "Rodrigo", "Gustavo", "César", "Emilio", "Tomás", "Ignacio", "Daniel", "Esteban", "Federico"
+    ],
+    "last_names": [
+      "Rodríguez", "Gómez", "González", "Fernández", "López", "Martínez", "Pérez", "Sánchez", "Ramírez", "Torres",
+      "Flores", "Rivera", "Morales", "Ortiz", "Castro", "Reyes", "Cruz", "Álvarez", "Mendoza", "Ruiz",
+      "Silva", "Ramos", "Herrera", "Medina", "Vega", "Campos", "Soto", "Delgado", "Jiménez", "Fuentes",
+      "Romero", "Aguilar", "Cabrera", "Espinoza", "Guerra", "Molina", "Núñez", "Peña", "Rivas", "Sosa",
+      "Acosta", "Barreiro", "Bentancur", "Cáceres", "García", "Machado", "Noble", "Pereira", "Silveira", "Vázquez"
+    ]
+  },
+  "Panama": {
+    "first_names": [
+      "José", "Juan", "Carlos", "Luis", "Miguel", "Pedro", "Alejandro", "Rafael", "Manuel", "Víctor",
+      "Santiago", "Eduardo", "Daniel", "Francisco", "Javier", "Diego", "Gabriel", "Andrés", "Pablo", "Ricardo",
+      "Felipe", "Marcos", "Sebastián", "César", "Rodrigo", "Emilio", "Gustavo", "Tomás", "Ignacio", "Raúl"
+    ],
+    "last_names": [
+      "Rodríguez", "Gómez", "González", "Martínez", "García", "López", "Pérez", "Sánchez", "Ramírez", "Torres",
+      "Flores", "Rivera", "Morales", "Ortiz", "Castro", "Reyes", "Cruz", "Álvarez", "Mendoza", "Ruiz",
+      "Silva", "Ramos", "Herrera", "Medina", "Vega", "Campos", "Soto", "Delgado", "Jiménez", "Fuentes",
+      "Romero", "Aguilar", "Cabrera", "Espinoza", "Guerra", "Molina", "Núñez", "Peña", "Rivas", "Santos",
+      "Arosemena", "Barahona", "Cedeño", "Coronado", "Escobar", "Montero", "Pino", "Quintero", "Valdés", "Villarreal"
+    ]
+  },
+  "Chile": {
+    "first_names": [
+      "Juan", "Carlos", "Luis", "José", "Diego", "Miguel", "Santiago", "Alejandro", "Victor", "Gabriel",
+      "Manuel", "Rafael", "Eduardo", "Javier", "Francisco", "Andrés", "Pablo", "Ricardo", "Sebastián", "Felipe",
+      "Marcos", "Rodrigo", "Gustavo", "César", "Emilio", "Tomás", "Ignacio", "Daniel", "Esteban", "Cristián"
+    ],
+    "last_names": [
+      "González", "Rodríguez", "López", "Martínez", "Gómez", "Pérez", "Sánchez", "Ramírez", "Torres", "Flores",
+      "Rivera", "Morales", "Ortiz", "Castro", "Reyes", "Cruz", "Álvarez", "Mendoza", "Ruiz", "Silva",
+      "Ramos", "Herrera", "Medina", "Vega", "Campos", "Soto", "Delgado", "Jiménez", "Fuentes", "Romero",
+      "Aguilar", "Cabrera", "Espinoza", "Guerra", "Molina", "Núñez", "Peña", "Rivas", "Santos", "Vásquez",
+      "Araya", "Bustos", "Contreras", "Muñoz", "Riquelme", "Sepúlveda", "Tapia", "Valenzuela", "Vera", "Zúñiga"
+    ]
+  }
+}

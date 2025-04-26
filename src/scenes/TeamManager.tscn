@@ -1,0 +1,58 @@
+[gd_scene load_steps=2 format=3 uid="uid://bjctth6f8wthw"]
+
+[sub_resource type="GDScript" id="GDScript_jyiwr"]
+script/source = "extends Control
+
+var team_data
+var teams = []
+var selected_team
+
+@onready var squad_view_scene = preload(\"res://scenes/SquadView.tscn\")
+
+
+
+func _ready():
+	load_player_data()
+	show_team(0)  # Show the first team for now
+
+
+
+func load_player_data():
+	print(\"Loading hardcoded player data...\")  # Debug
+	teams.append({
+		\"name\": \"Team A\",
+		\"players\": [
+			{
+			\"name\": \"Player 1\",
+			\"position\": \"Forward\",
+			\"ovr\": 85,
+			\"age\": 24,
+			\"pot\": 90,
+			\"contract\": {
+			\"salary_million\": 2.5,
+			\"contract_years\": 3
+				}
+			}
+		]
+	})
+	print(\"Hardcoded player data loaded:\", teams)  # Debug
+
+func show_team(index):
+	var team = teams[index]
+	var squad_view = squad_view_scene.instantiate()  # Instantiates the scene
+	squad_view.selected_team = {
+		\"name\": team.name,
+		\"players\": team.players
+	}
+	add_child(squad_view)  # Adds the instantiated scene to the current scene tree
+	squad_view.populate_squad()  # Populates the squad view UI
+"
+
+[node name="TeamManager" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = SubResource("GDScript_jyiwr")

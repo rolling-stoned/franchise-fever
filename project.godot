@@ -1,0 +1,32 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="Franchiser"
+run/main_scene="res://src/scenes/main_menu.tscn"
+config/features=PackedStringArray("4.4", "Mobile")
+
+[autoload]
+
+SaNamesTotal="*res://src/scripts/utils/name_merger.gd"
+NameManager="*res://src/scripts/managers/name_manager.gd"
+PlayerRating="*res://src/scripts/models/player_rating.gd"
+PositionBoosts="*res://src/scripts/models/position_boosts.gd"
+GenContracts="*res://src/scripts/core/gen_contracts.gd"
+
+[display]
+
+window/size/viewport_width=360
+window/size/viewport_height=900
+
+[rendering]
+
+renderer/rendering_method="mobile"

@@ -1,0 +1,72 @@
+{
+  "Guatemala": {
+	"first_names": [
+	  "Juan", "Carlos", "Luis", "José", "Pedro", "Miguel", "Diego", "Santiago", "Alejandro", "Victor",
+	  "Gabriel", "Manuel", "Rafael", "Eduardo", "Javier", "Francisco", "Andrés", "Marcos", "Pablo", "Ricardo",
+	  "Sebastián", "Felipe", "Gustavo", "Rodrigo", "Emilio", "César", "Tomás", "Ignacio", "Esteban", "Daniel"
+	],
+	"last_names": [
+	  "López", "García", "Rodríguez", "Martínez", "González", "Pérez", "Sánchez", "Ramírez", "Torres", "Flores",
+	  "Rivera", "Gómez", "Hernández", "Díaz", "Reyes", "Morales", "Cruz", "Ortiz", "Castillo", "Ramos",
+	  "Mendoza", "Alvarado", "Vásquez", "Castro", "Jiménez", "Ruiz", "Molina", "Silva", "Aguilar", "Herrera",
+	  "Medina", "Vega", "Chávez", "Romero", "Acosta", "Barrios", "Calderón", "Estrada", "Fuentes", "Guzmán",
+	  "Monterroso", "Núñez", "Pineda", "Rivas", "Santos", "Soto", "Valdez", "Villagrán", "Zepeda", "Aldana"
+	]
+  },
+  "Cuba": {
+	"first_names": [
+	  "José", "Luis", "Carlos", "Juan", "Miguel", "Pedro", "Alejandro", "Rafael", "Manuel", "Víctor",
+	  "Santiago", "Eduardo", "Daniel", "Francisco", "Javier", "Diego", "Gabriel", "Andrés", "Pablo", "Ricardo",
+	  "Felipe", "Marcos", "Sebastián", "César", "Rodrigo", "Emilio", "Gustavo", "Tomás", "Ignacio", "Raúl"
+	],
+	"last_names": [
+	  "Rodríguez", "Gómez", "Pérez", "González", "Hernández", "García", "Martínez", "López", "Sánchez", "Ramírez",
+	  "Fernández", "Torres", "Rivera", "Díaz", "Morales", "Ortiz", "Castro", "Reyes", "Cruz", "Álvarez",
+	  "Mendoza", "Ruiz", "Silva", "Ramos", "Herrera", "Medina", "Vega", "Campos", "Soto", "Delgado",
+	  "Jiménez", "Fuentes", "Romero", "Aguilar", "Cabrera", "Espinosa", "Guerra", "Molina", "Núñez", "Peña",
+	  "Rojas", "Valdés", "Vázquez", "Acosta", "Báez", "Cordero", "Estévez", "Guerrero", "Montes", "Pino"
+	]
+  },
+  "Jamaica": {
+	"first_names": [
+	  "Michael", "David", "James", "Robert", "John", "William", "Mark", "Paul", "Steven", "Richard",
+	  "Andrew", "Christopher", "Daniel", "Matthew", "Joseph", "Thomas", "Charles", "Kevin", "Jason", "Brian",
+	  "Edward", "Ronald", "Anthony", "Patrick", "George", "Donald", "Kenneth", "Wayne", "Peter", "Leroy"
+	],
+	"last_names": [
+	  "Brown", "Williams", "Johnson", "Smith", "Jones", "Davis", "Clarke", "Lewis", "Walker", "Hall",
+	  "Allen", "Young", "King", "Wright", "Scott", "Green", "Adams", "Baker", "Nelson", "Campbell",
+	  "Mitchell", "Roberts", "Stewart", "Morris", "Murphy", "Bailey", "Cooper", "Reed", "Cook", "Morgan",
+	  "Bell", "Collins", "Edwards", "Grant", "Henry", "James", "Palmer", "Phillips", "Richards", "Simpson",
+	  "Taylor", "Thompson", "Watson", "Webb", "West", "Wilson", "Wood", "Anderson", "Bennett", "Brooks"
+	]
+  },
+  "Bolivia": {
+	"first_names": [
+	  "Juan", "Luis", "Carlos", "José", "Diego", "Miguel", "Santiago", "Alejandro", "Victor", "Gabriel",
+	  "Manuel", "Rafael", "Eduardo", "Javier", "Francisco", "Andrés", "Pablo", "Ricardo", "Sebastián", "Felipe",
+	  "Marcos", "Rodrigo", "Gustavo", "César", "Emilio", "Tomás", "Ignacio", "Daniel", "Esteban", "Raúl"
+	],
+	"last_names": [
+	  "Mamani", "Flores", "Rodríguez", "García", "López", "Pérez", "González", "Martínez", "Ramírez", "Torres",
+	  "Rojas", "Gómez", "Fernández", "Sánchez", "Díaz", "Morales", "Ortiz", "Vargas", "Castro", "Ramos",
+	  "Mendoza", "Cruz", "Silva", "Herrera", "Medina", "Ruiz", "Álvarez", "Jiménez", "Acosta", "Aguilar",
+	  "Choque", "Condori", "Huanca", "Quispe", "Ticona", "Vega", "Villca", "Apaza", "Callisaya", "Chambi",
+	  "Colque", "Lima", "Nina", "Poma", "Soto", "Valdez", "Yana", "Zabala", "Bautista", "Calle"
+	]
+  },
+  "Peru": {
+	"first_names": [
+	  "Juan", "Carlos", "Luis", "José", "Diego", "Miguel", "Santiago", "Alejandro", "Victor", "Gabriel",
+	  "Manuel", "Rafael", "Eduardo", "Javier", "Francisco", "Andrés", "Pablo", "Ricardo", "Sebastián", "Felipe",
+	  "Marcos", "Rodrigo", "Gustavo", "César", "Emilio", "Tomás", "Ignacio", "Daniel", "Esteban", "Christian"
+	],
+	"last_names": [
+	  "García", "Rodríguez", "López", "González", "Pérez", "Sánchez", "Ramírez", "Torres", "Flores", "Gómez",
+	  "Díaz", "Martínez", "Hernández", "Rojas", "Morales", "Ortiz", "Castro", "Reyes", "Cruz", "Álvarez",
+	  "Mendoza", "Ruiz", "Silva", "Ramos", "Herrera", "Medina", "Vega", "Campos", "Soto", "Delgado",
+	  "Jiménez", "Fuentes", "Romero", "Aguilar", "Cabrera", "Espinoza", "Guerra", "Molina", "Núñez", "Peña",
+	  "Quispe", "Huamán", "Mamani", "Condori", "Vilca", "Yauri", "Chávez", "Salazar", "Vásquez", "Zevallos"
+	]
+  }
+}

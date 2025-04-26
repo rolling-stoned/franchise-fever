@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://f4w62n2p8slv"]
+
+[ext_resource type="Script" uid="uid://c2goqkkacng1n" path="res://src/scripts/models/position_boosts.gd" id="1_mvd1b"]
+
+[node name="Node" type="Node"]
+script = ExtResource("1_mvd1b")

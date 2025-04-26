@@ -1,0 +1,61 @@
+[gd_scene load_steps=3 format=3 uid="uid://bdq3apud5iumc"]
+
+[ext_resource type="Script" uid="uid://6jk1gn3i48s1" path="res://src/scripts/utils/team_select.gd" id="1_yls2l"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ev033"]
+bg_color = Color(0.605955, 0.219131, 0.276442, 1)
+border_width_bottom = 4
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_yls2l")
+
+[node name="PanelContainer" type="PanelContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -180.0
+offset_right = 180.0
+offset_bottom = 80.0
+grow_horizontal = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_ev033")
+
+[node name="Back" type="Button" parent="Panel"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.122
+anchor_top = 0.478
+anchor_right = 0.122
+anchor_bottom = 0.478
+offset_left = -30.92
+offset_top = -18.24
+offset_right = 51.08
+offset_bottom = 17.76
+text = "BACK"
+
+[node name="ItemList" type="ItemList" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 135.0
+offset_bottom = 168.0
+grow_horizontal = 2
+grow_vertical = 2
+fixed_icon_size = Vector2i(50, 50)
+
+[connection signal="pressed" from="Panel/Back" to="." method="_on_Back_pressed"]
